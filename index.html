@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>About Me</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("button").click(function() {
+          $("h1").addClass("page-title");
+          $("h3").addClass("subgroups");
+          $("h2").addClass("link");
+          $("ul1").addClass("info");
+          $("p").addClass("clownfish");
+          $("a").addClass("link2");
+          $("body").addClass("website-body");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Mairin</h1>
+    <p>
+      I love clownfish!
+    </p>
+    <img
+      src="https://images.unsplash.com/photo-1544552866-d3ed42536cfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+      width="410"
+      height="320"
+    />
+
+    <button type="button">Dark Mode Button</button>
+
+    <h3>
+      Basic Info
+    </h3>
+
+    <ul1>
+      <li>I go to school in Texas</li>
+      <li>I do CyberPatriot</li>
+      <li>Website Development is my favorite type of coding</li>
+      <li>I play Tuba</li>
+    </ul1>
+
+    <h3>
+      Hobbies
+    </h3>
+
+    <ul1>
+      <li>I love nature, especially the ocean</li>
+      <li>I enjoy running</li>
+      <li>
+        I like reading, drawing, baking, photography, crafts, and listening to
+        music
+      </li>
+      <li>I have a black belt in karate</li>
+    </ul1>
+
+    <h2>
+      Here is a cool <a href="https://www.ocearch.org/tracker/?list">link</a> I
+      like that allows you to see where Marine Animals currently are in the
+      world!
+    </h2>
+  </body>
+</html>
